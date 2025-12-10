@@ -94,7 +94,7 @@
                 document.getElementById("location").innerHTML = `
                     <span class="text-green-600">✅ Location found for ${phone}</span><br>
                     <b>Country:</b> ${region}<br>
-                    <b>Time Zone:</b> ${parsed.getTimeZone ? parsed.getTimeZone() : "Unknown"}<br>
+                    <b>Time Zone:</b> ${parsed.getTimeZone ? parsed.getTimeZone() : "Asia/Kolkata"}<br>
                     <b>Latitude:</b> ${parseFloat(lat).toFixed(4)}<br>
                     <b>Longitude:</b> ${parseFloat(lon).toFixed(4)}
                 `;
@@ -123,4 +123,5 @@
     </script>
 
 </body>
+
 </html>
