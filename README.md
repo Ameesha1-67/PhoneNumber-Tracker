@@ -24,6 +24,3 @@ Built using:
 ✔ Includes location search history  
 ✔ Works in mobile & desktop browsers
 
----
-
-## 📂 Project Structure
